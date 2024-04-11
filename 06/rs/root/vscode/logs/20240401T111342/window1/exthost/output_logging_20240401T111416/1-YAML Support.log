@@ -1,0 +1,7 @@
+[Error - 오전 11:14:39] Request textDocument/completion failed.
+  Message: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+  Code: -32603 
+Error thrown while requesting schema "TypeError: Cannot read properties of null (reading 'raw')" when calling the registered contributor "kubernetes"
+Error thrown while requesting schema "TypeError: Cannot read properties of null (reading 'raw')" when calling the registered contributor "kubernetes"
+Error thrown while requesting schema "TypeError: Cannot read properties of null (reading 'raw')" when calling the registered contributor "kubernetes"
+Error thrown while requesting schema "TypeError: Cannot read properties of null (reading 'raw')" when calling the registered contributor "kubernetes"

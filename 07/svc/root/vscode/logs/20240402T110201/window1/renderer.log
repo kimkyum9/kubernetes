@@ -1,0 +1,18 @@
+2024-04-02 11:02:07.493 [info] Started local extension host with pid 96172.
+2024-04-02 11:02:20.512 [info] Started local extension host with pid 96507.
+2024-04-02 11:02:26.267 [info] [perf] Render performance baseline is 103ms
+2024-04-02 11:02:32.295 [error] [Extension Host] (node:96507) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-04-02 17:03:14.182 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)

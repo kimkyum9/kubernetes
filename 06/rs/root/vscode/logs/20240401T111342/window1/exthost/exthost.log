@@ -1,0 +1,62 @@
+2024-04-01 11:14:01.070 [info] Extension host with pid 101338 started
+2024-04-01 11:14:02.534 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-01 11:14:02.618 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-01 11:14:02.914 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-01 11:14:03.701 [info] Eager extensions activated
+2024-04-01 11:14:03.743 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 11:14:04.289 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 11:14:13.374 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-01 11:14:13.531 [info] Extension host with pid 101338 exiting with code 0
+2024-04-01 11:14:16.896 [info] Extension host with pid 101794 started
+2024-04-01 11:14:16.896 [info] Skipping acquiring lock for /root/kube/06/rs/root/vscode/User/workspaceStorage/f3d127664f62f19ee1a88cb730a4ce74.
+2024-04-01 11:14:16.968 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-01 11:14:17.162 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-01 11:14:17.351 [info] Eager extensions activated
+2024-04-01 11:14:17.366 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 11:14:17.373 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 11:14:24.622 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-01 11:14:35.144 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-01 11:14:35.632 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-01 11:14:36.294 [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+2024-04-01 11:14:38.323 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-01 11:14:38.352 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-01 11:14:39.044 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-01 11:14:39.046 [error] Error: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302563
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302857
+	at Immediate.<anonymous> (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:303222)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-04-01 11:51:28.812 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-01 11:51:28.880 [info] Extension host with pid 101794 exiting with code 0
+2024-04-01 11:51:33.556 [info] Extension host with pid 139205 started
+2024-04-01 11:51:33.556 [info] Skipping acquiring lock for /root/kube/06/rs/root/vscode/User/workspaceStorage/0a6c162cdcd52f51f64e2e4fac2e380d.
+2024-04-01 11:51:33.755 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-01 11:51:33.861 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-01 11:51:33.937 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-01 11:51:34.162 [info] Eager extensions activated
+2024-04-01 11:51:34.235 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 11:51:34.240 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-01 11:51:36.329 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-01 11:51:36.590 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-01 11:51:37.461 [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+2024-04-01 11:51:39.591 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-01 11:51:39.926 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-01 11:51:39.949 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-01 11:51:39.956 [error] Error: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302563
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302857
+	at Immediate.<anonymous> (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:303222)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-04-01 11:51:39.972 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-01 11:51:39.972 [error] Error: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302563
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302857
+	at Immediate.<anonymous> (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:303222)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-04-01 11:51:40.620 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-01 11:51:40.782 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-01 11:51:40.782 [error] Error: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302563
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302857
+	at Immediate.<anonymous> (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:303222)
+	at process.processImmediate (node:internal/timers:476:21)

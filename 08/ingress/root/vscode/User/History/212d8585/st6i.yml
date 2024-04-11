@@ -1,0 +1,36 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name:  Service Name
+spec:
+  selector:
+    app:  Selector Label
+  type:  LoadBalancer | ClusterIP | NodePort
+  ports:
+  - name:  name-of-the-port
+    port:  80
+    targetPort:  8080
+
+
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: foo-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: foo-app
+  template:
+    metadata:
+      name: foo-pod
+      labels:
+        app: foo-app
+    spec:
+      containers:
+      - name: foo-container
+        image: whatwant/node-web:2.0
+        ports:
+        - containerPort: 8080

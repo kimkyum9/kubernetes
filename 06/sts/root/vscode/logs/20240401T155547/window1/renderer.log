@@ -1,0 +1,7 @@
+2024-04-01 15:55:53.156 [warning] Creation of workbench contribution 'workbench.contrib.complexCustomWorkingCopyEditorHandler' took 32ms.
+2024-04-01 15:55:53.194 [warning] Creation of workbench contribution 'workbench.contrib.nativeWorkingCopyBackupTracker' took 22ms.
+2024-04-01 15:55:54.660 [info] Started local extension host with pid 59475.
+2024-04-01 15:56:09.696 [info] Started local extension host with pid 59784.
+2024-04-01 15:56:18.714 [info] [perf] Render performance baseline is 305ms
+2024-04-01 15:56:23.951 [error] [Extension Host] (node:59784) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

@@ -1,0 +1,101 @@
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: foo-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: foo-app
+  template:
+    metadata:
+      name: foo-pod
+      labels:
+        app: foo-app
+    spec:
+      containers:
+      - name: foo-container
+        image: whatwant/node-web:2.0
+        ports:
+        - containerPort: 8080
+
+---
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: bar-deploy
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bar-app
+  template:
+    metadata:
+      name: bar-pod
+      labels:
+        app: bar-app
+    spec:
+      containers:
+      - name: bar-container
+        image: whatwant/node-web:2.0
+        ports:
+        - containerPort: 8080
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name:  foo-svc
+spec:
+  selector:
+    app:  foo-app
+  # type:  ClusterIP
+  # ClusterIP: 10.233.10.10
+  ports:
+  - name: foo-app
+    port:  80
+    targetPort:  8080
+
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name:  bar-svc
+spec:
+  selector:
+    app:  bar-app
+  # type:  ClusterIP
+  # ClusterIP: 10.233.10.10
+  ports:
+  - name: bar-app
+    port:  80
+    targetPort:  8080
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: name-virtual-host-ingress
+spec:
+  rules:
+  - host: foo.bar.com
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: service1
+            port:
+              number: 80
+  - host: bar.foo.com
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: service2
+            port:
+              number: 80

@@ -1,0 +1,81 @@
+2024-04-04 11:23:50.411 [info] Extension host with pid 27243 started
+2024-04-04 11:23:51.447 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-04 11:23:51.792 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-04 11:23:52.313 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-04 11:23:52.808 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-04 11:23:52.862 [info] Extension host with pid 27243 exiting with code 0
+2024-04-04 11:23:57.496 [info] Extension host with pid 27530 started
+2024-04-04 11:23:57.496 [info] Skipping acquiring lock for /root/kube/12/storage/root/vscode/User/workspaceStorage/0f362b1320ab429387a22def5062b9d8.
+2024-04-04 11:23:58.128 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-04 11:23:58.200 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-04 11:23:58.689 [info] Eager extensions activated
+2024-04-04 11:23:58.754 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 11:23:58.783 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-04 11:24:03.425 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-04 11:24:06.567 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-04 11:24:07.021 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-04 11:24:07.363 [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+2024-04-04 11:24:09.810 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-04 11:24:09.896 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-04 11:25:05.481 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-04 11:25:05.486 [error] Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)
+2024-04-04 11:25:05.614 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-04 11:25:05.614 [error] Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)
+2024-04-04 11:25:08.521 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-04 11:25:08.521 [error] Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)
+2024-04-04 11:25:08.895 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-04 11:25:08.895 [error] Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)
+2024-04-04 11:25:09.275 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-04 11:25:09.275 [error] Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)
+2024-04-04 11:25:09.448 [error] [redhat.vscode-yaml] provider FAILED
+2024-04-04 11:25:09.448 [error] Error: name must not be falsy
+	at l.validate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17346)
+	at new l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:148:17641)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427439)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at $ (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:427614)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:432785)
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:359291
+	at async l.provideDocumentSymbols (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:93630)

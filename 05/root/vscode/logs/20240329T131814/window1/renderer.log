@@ -1,0 +1,7 @@
+2024-03-29 13:18:18.644 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 43ms.
+2024-03-29 13:18:19.590 [info] Started local extension host with pid 26924.
+2024-03-29 13:18:27.939 [info] [perf] Render performance baseline is 104ms
+2024-03-29 13:18:35.881 [info] Started local extension host with pid 27177.
+2024-03-29 13:18:43.056 [info] [perf] Render performance baseline is 234ms
+2024-03-29 13:19:19.679 [error] [Extension Host] (node:27177) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

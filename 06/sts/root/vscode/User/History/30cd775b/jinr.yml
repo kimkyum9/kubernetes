@@ -1,0 +1,9 @@
+kind: StatfulSet
+apiVersion: apps/v1
+metadata:
+  name: sts-nginx
+spec:
+  serviceName: sts-service
+  replicas:
+  selector: 
+  template:

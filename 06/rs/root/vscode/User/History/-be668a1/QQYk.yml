@@ -1,0 +1,8 @@
+kind: ReplicaSet
+apiVersion: apps/v1
+metadata:
+  name: rc-httpd
+spec:
+  replicas:
+  selector:
+  template:

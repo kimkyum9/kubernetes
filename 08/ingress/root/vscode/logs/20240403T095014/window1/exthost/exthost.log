@@ -1,0 +1,27 @@
+2024-04-03 09:50:26.276 [info] Extension host with pid 27400 started
+2024-04-03 09:50:26.911 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-03 09:50:26.987 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-03 09:50:27.425 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-03 09:50:27.867 [info] Eager extensions activated
+2024-04-03 09:50:27.896 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-03 09:50:27.903 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-03 09:50:41.846 [info] Extension host terminating: renderer closed the MessagePort
+2024-04-03 09:50:41.918 [info] Extension host with pid 27400 exiting with code 0
+2024-04-03 09:50:46.417 [info] Extension host with pid 27795 started
+2024-04-03 09:50:46.417 [info] Skipping acquiring lock for /root/kube/08/ingress/root/vscode/User/workspaceStorage/0f362b1320ab429387a22def5062b9d8.
+2024-04-03 09:50:46.685 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-03 09:50:47.111 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-03 09:50:47.424 [info] Eager extensions activated
+2024-04-03 09:50:47.687 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-03 09:50:47.705 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-03 09:50:52.930 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-03 09:50:56.239 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-03 09:50:56.553 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-03 09:50:56.986 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-03 09:50:59.934 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+2024-04-03 09:51:00.461 [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+2024-04-03 09:51:03.695 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-03 09:51:03.864 [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2024-04-03 10:47:26.481 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-04-03 10:47:27.982 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+2024-04-03 10:47:28.428 [warning] redhat.vscode-yaml - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.

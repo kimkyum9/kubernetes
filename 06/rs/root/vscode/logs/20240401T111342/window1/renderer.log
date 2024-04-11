@@ -1,0 +1,21 @@
+2024-04-01 11:13:55.375 [info] Started local extension host with pid 101338.
+2024-04-01 11:14:12.156 [info] [perf] Render performance baseline is 103ms
+2024-04-01 11:14:15.197 [info] Started local extension host with pid 101794.
+2024-04-01 11:14:22.283 [info] [perf] Render performance baseline is 203ms
+2024-04-01 11:14:37.434 [error] [Extension Host] (node:101794) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-04-01 11:14:39.066 [error] Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length'): Error: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302563
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302857
+	at Immediate.<anonymous> (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:303222)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-04-01 11:51:31.456 [warning] Creation of workbench contribution 'workbench.contrib.nativeWorkingCopyBackupTracker' took 21ms.
+2024-04-01 11:51:32.284 [info] Started local extension host with pid 139205.
+2024-04-01 11:51:38.960 [error] [Extension Host] (node:139205) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-04-01 11:51:40.273 [error] Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length'): Error: Request textDocument/completion failed with message: Cannot read properties of undefined (reading 'length')
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302563
+	at /root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:302857
+	at Immediate.<anonymous> (/root/.vscode/extensions/redhat.vscode-yaml-1.14.0/dist/extension.js:2:303222)
+	at process.processImmediate (node:internal/timers:476:21)
+2024-04-01 11:51:41.535 [info] [perf] Render performance baseline is 280ms
